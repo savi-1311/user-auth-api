@@ -75,14 +75,14 @@ A simple API with basic authentication features
 
 ### ▶️ Usage 
 1. Setting up MySQL environment
-  ```sql
-  CREATE DATABASE userdb;
-  CREATE TABLE userinfo (
-  user_id int primary key auto_increment,
-  user_name varchar(255),
-  user_email varchar(255),
-  user_password varchar(255));
-  ```
+    ```sql
+    CREATE DATABASE userdb;
+    CREATE TABLE userinfo (
+    user_id int primary key auto_increment,
+    user_name varchar(255),
+    user_email varchar(255),
+    user_password varchar(255));
+    ```
 
 2.  To run the server
     ```node 
